@@ -1,3 +1,9 @@
+""" 
+The purpose of this script is to complete a price-volume mix analysis of a business' data at a customer-product level.
+The output is a multi-layered waterfall chart (i.e. bridge) that shows the impact on revenue due to:
+    price, volume, mix (combination of price and volume), new customers, lost customers
+"""
+
 import copy
 import pandas as pd
 import plotly.graph_objects as go
